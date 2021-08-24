@@ -119,6 +119,11 @@ a.cancel-btn:hover {
 .attribution {
   font-weight: 500;
   margin-top: 2rem;
+  text-align: center;
+}
+
+.challenge-footer {
+    display: block;
 }
 
 .challenge-footer a,
