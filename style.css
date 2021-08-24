@@ -117,15 +117,9 @@ a.cancel-btn:hover {
 }
 
 .attribution {
-  width: 100%;
-  display: flex;
+  display: block;
   font-weight: 500;
-  margin-bottom: 20px;
-  text-align: center;
-  justify-content: center;
-  position: absolute;
-  bottom: 0px;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .challenge-footer a,
