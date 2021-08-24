@@ -177,4 +177,12 @@ a.cancel-btn:hover {
       display: block;
   }
 
+  .challenge-footer a {
+      font-size: 14px;
+  }
+
+  .challenge-developer a {
+      font-size: 14px;
+  }
+
 }
