@@ -13,6 +13,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-color: #e0e8ff;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -113,6 +114,31 @@ a.cancel-btn {
 
 a.cancel-btn:hover {
   color: #1f2e55;
+}
+
+.attribution {
+  width: 100%;
+  display: flex;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 2rem;
+}
+
+.challenge-footer a,
+.challenge-developer a {
+  font-size: 16px;
+  color: #382ae1;
+  transition: color 0.3s ease;
+}
+
+.challenge-footer a:hover,
+.challenge-developer a:hover {
+  color: #766cf1;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 480px) {
