@@ -117,7 +117,6 @@ a.cancel-btn:hover {
 }
 
 .attribution {
-  display: block;
   font-weight: 500;
   margin-top: 2rem;
 }
@@ -169,4 +168,13 @@ a.cancel-btn:hover {
     font-size: 13px;
     font-weight: bold;
   }
+
+  .attribution {
+      text-align: center;
+  }
+
+  .challenge-developer {
+      display: block;
+  }
+
 }
